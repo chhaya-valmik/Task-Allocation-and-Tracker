@@ -1,0 +1,67 @@
+.task_list{
+    height: 55%;
+    width: 100%;  
+    /*background-color: #ef4444;  */
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+#taskListt::-webkit-scrollbar{
+    display: none;
+}
+
+.stask_list{
+    height: 100%;
+    width: 300px;
+    background-color: #4A102A;   /* #facc15 */
+    border-radius: 0.75rem;  /* 12px */
+    flex-shrink: 0;
+    padding: 20px;
+    align-items: center;
+}
+
+.task-status{
+    background-color: #85193C;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+}
+
+.task-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.task-date{
+    font-size: 1.25rem;
+}
+.task-title{
+    margin-top: 20px;
+    font-size: 2.0rem;
+    font-weight: 600;
+}
+.para{
+    font-size: 0.875rem;
+    margin-top: 8px;
+}
+
+#sL{
+    background-color: #4A102A;
+}
+#tL{
+    background-color: #85193C;
+}
+#foL{
+    background-color: #FCF259;
+}
